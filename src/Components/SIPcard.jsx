@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import DoughnutChart from './DoughnutChart';
-import { Doughnut, Bar } from 'react-chartjs-2'
-import Chart from 'chart.js/auto';
 import Results from './Results';
-import { Link } from "react-router-dom";
 
 
 
@@ -112,9 +109,8 @@ const SIPcard = () => {
                 <a
                     target="_blank"
                     href={`https://github.com/ShreyoPaul/`}
-                    className="btn" >Rate my GitHUB</a>
+                    className="btn" style={{width: "250px"}} >Rate my GitHUB</a>
             </div>
-
             {
                 data.period > 0 && data.interest > 0 && data.invest > 100
                     ?
@@ -126,7 +122,6 @@ const SIPcard = () => {
                         <DoughnutChart d={x} />
                     </div>
             }
-
 
         </div>
     )
