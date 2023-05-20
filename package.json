@@ -1,6 +1,5 @@
 {
   "name": "sip_calculator",
-  "homepage": "https://ShreyoPaul.github.io/sip_calculator/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
